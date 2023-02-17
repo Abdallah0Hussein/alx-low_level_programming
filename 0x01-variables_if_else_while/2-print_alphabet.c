@@ -1,5 +1,6 @@
 #include <stdio.h>
-/* more headers goes there */
+/* more headers goes there
+ * hea */
 
 /* betty style doc for function main goes there */
 int main(void)
