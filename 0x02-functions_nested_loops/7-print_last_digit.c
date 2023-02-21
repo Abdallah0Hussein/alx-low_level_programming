@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 /**
  * print_last_digit - main fun
  * Description: main fun
@@ -7,6 +8,6 @@
  */
 int print_last_digit(int n)
 {
-	_putchar(_abs(n) % 10 + '0');
-	return (_abs(n) % 10);
+	_putchar(abs(n) % 10 + '0');
+	return (abs(n) % 10);
 }
