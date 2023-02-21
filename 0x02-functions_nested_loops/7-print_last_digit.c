@@ -1,5 +1,6 @@
 #include "main.h"
 #include <math.h>
+#include <stdlib.h>
 /**
  * print_last_digit - main fun
  * Description: main fun
