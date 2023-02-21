@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - main func
+ * _islower - main fun
  * Description: hehe
  * @c: ineger c
  * Return: 0

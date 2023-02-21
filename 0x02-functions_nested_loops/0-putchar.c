@@ -3,7 +3,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * main - main func
+ * main - main fun
  * Description: hehe
  * Return: 0
  */

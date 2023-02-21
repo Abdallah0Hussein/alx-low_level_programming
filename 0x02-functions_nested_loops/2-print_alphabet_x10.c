@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - main func
- * Description: hi hi hi
+ * print_alphabet_x10 - main fun
+ * Description: hehe
  * Return: 0
  */
 void print_alphabet_x10(void)

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - main func
- * Description: hi hi hi
+ * _isalpha - main fun
+ * Description: hehe
  * @c: int c
  * Return: 0
  */
