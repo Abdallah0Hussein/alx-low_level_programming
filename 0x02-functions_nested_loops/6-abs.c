@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+* * _abs - main fun
 * Description: main fun
 * @n: int n
 * Return: 0
