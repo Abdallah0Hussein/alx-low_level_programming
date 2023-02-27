@@ -12,12 +12,13 @@ int main(void)
 {
 	char password[PASSWORD_LENGTH + 1];
 	size_t charset_size = 62;
+	int i;
 
 	srand(time(NULL));
 
-	for (int i = 0; i < PASSWORD_LENGTH; i++)
+	for (i = 0; i < PASSWORD_LENGTH; i++)
 	{
-		password[i] = charset[rand() % charset_size];
+		password[i] = 'a' + (rand() % charset_size);
 	}
 	password[PASSWORD_LENGTH] = '\0';
 
