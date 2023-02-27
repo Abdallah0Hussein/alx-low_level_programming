@@ -11,9 +11,7 @@
 int main(void)
 {
 	char password[PASSWORD_LENGTH + 1];
-	char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-1023456789";
-	size_t charset_size = sizeof(charset) - 1;
+	size_t charset_size = 62;
 
 	srand(time(NULL));
 
