@@ -12,7 +12,7 @@ int main(void)
 {
 	char password[PASSWORD_LENGTH + 1];
 	char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-		0123456789";
+1023456789";
 	size_t charset_size = sizeof(charset) - 1;
 
 	srand(time(NULL));
