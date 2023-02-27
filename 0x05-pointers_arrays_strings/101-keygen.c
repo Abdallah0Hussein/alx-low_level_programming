@@ -14,10 +14,11 @@ int main(void)
 	char password[PASSWORD_LENGTH + 1];
 	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	const size_t charset_size = sizeof(charset) - 1;
+	int i;
 
 	srand(time(NULL));
 
-	for (int i = 0; i < PASSWORD_LENGTH; i++)
+	for (i = 0; i < PASSWORD_LENGTH; i++)
 	{
 		password[i] = charset[rand() % charset_size];
 	}
